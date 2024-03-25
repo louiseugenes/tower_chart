@@ -1,0 +1,210 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    background-color: rgb(51, 49, 49);
+}
+
+.main-container{
+    display: block;
+    position: relative;
+    left: 70px;
+    height: 50px;
+    width: 750px;
+    align-items: center;
+    margin: 5vh auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content{
+    display: block;
+    position: relative;
+    right: 260px;
+    margin-left: 40vh;
+    margin-top: 20vh;
+    display: flex;
+    align-items: center;
+    height: 6vh;
+    width: 70%;
+    background-color: rgb(91, 184, 91);
+    border-radius: 12px;
+    text-align: left;
+}
+
+.main-content h1{
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.tower-chart{
+    display: flex;
+}
+
+.ios-tower{
+    display: block;
+    height: 100;
+    width: 100px;
+    margin: 10px;
+    background-color: rgb(1, 32, 1);
+    border-radius: 10px;
+    margin-top: 220px;
+
+    h1{
+        position: relative;
+        left: 10px;
+    }
+
+    h2{
+        position: relative;
+        left: 10px;
+    }
+}
+
+.ios-tower:hover{
+    background-color: green;
+}
+
+.android-tower{
+    display: block;
+    height: 150;
+    width: 100px;
+    margin: 10px;
+    background-color: orange;
+    border-radius: 10px;
+    margin-top: 130px;
+
+    h1{
+        position: relative;
+        top: 85px;
+        left: 10px;
+    }
+
+    h2{
+        position: relative;
+        top: 85px;
+        left: 10px;
+    }
+
+}
+
+.android-tower:hover{
+    background-color: rgb(243, 191, 95);
+}
+
+.fullstack-tower{
+    display: block;
+    position: relative;
+    top: 80px;
+    height: 190px;
+    width: 100px;
+    margin: 10px;
+    background-color: rgb(236, 189, 102);
+    border-radius: 10px;
+
+    h1{
+        position: relative;
+        top: 125px;
+        left: 10px;
+    }
+
+    h2{
+        position: relative;
+        top: 125px;
+        left: 10px;
+    }
+
+}
+
+.fullstack-tower:hover{
+    background-color: rgb(204, 146, 38);
+}
+
+.frontend-tower{
+    display: block;
+    position: relative;
+    top: 50px;
+    height: 220px;
+    width: 100px;
+    margin: 10px;
+    background-color: rgb(138, 219, 138);
+    border-radius: 10px;
+
+    h1{
+        position: relative;
+        top: 155px;
+        left: 10px;
+    }
+
+    h2{
+        position: relative;
+        top: 155px;
+        left: 10px;
+    }
+
+}
+
+.backend-tower{
+    display: block;
+    height: 300;
+    width: 100px;
+    margin: 10px;
+    background-color: rgb(153, 46, 46);
+    border-radius: 10px;
+
+    h1{
+        position: relative;
+        top: 205px;
+        left: 10px;
+    }
+
+    h2{
+        position: relative;
+        top: 205px;
+        left: 10px;
+    }
+
+}
+
+.main-chart-text{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.second-chart-text{
+    color: white;
+    font-size: 10px;
+}
+
+.line-div{
+    display: block;
+    position: relative;
+    right: 70px;
+    border: 5px solid white;
+    border-radius: 20px;
+    width: 570px;
+}
+
+.list-areas{
+    display: block;
+}
+
+.list-areas ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-areas ul li{
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 45px;
+}
